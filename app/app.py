@@ -1,12 +1,11 @@
 import pandas as pd  
 import numpy as np 
+import matplotlib.pyplot as plt
 
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities 
-
 from bs4 import BeautifulSoup
 
-import matplotlib.pyplot as plt
 
 
 url = "https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-Europe-0x46ed8886cfadda85%253A0x72ef99e6b3fcf079;li=3;lx=5;d=2018-01-15"

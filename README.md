@@ -1,4 +1,5 @@
-[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
+<!--[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
+-->
 
 ## Find-Cheap-Airfares
 A Python/Machine Learning application
@@ -16,6 +17,23 @@ In this project I wanted to implement Machine learning techniques to serve the p
   - BeautifulSoup
   - PhantomJS
   - OOP
+
+### Development Timeline
+Jan 2017 - Till Date
+
+### How to Run
+- Step 1: Create a virtual environment
+- Step 2: Install requirements from requirementx.txt
+- Step 3: Run the main project file
+```
+cd app
+python app.py
+```
+
+### Future Direction
+This project is still in phase 1 which is very early development phase. Next possible improvements are expected
+*Create more robust classifier
+*Add some read life functionalities
 
 
 ### Support / Found a bug?
