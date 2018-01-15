@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
+
 ## Find-Cheap-Airfares
 A Python/Machine Learning application
 
