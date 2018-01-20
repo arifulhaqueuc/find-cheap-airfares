@@ -1,6 +1,6 @@
 <!--[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
 -->
-## Find-Cheap-Airfares
+### Find-Cheap-Airfares
 A Python/Machine Learning application.
 
 ### Background
@@ -19,7 +19,7 @@ By now, Machine Learning has proved itself as a reliable medium to build such ap
 | License Type | MIT |
 
 ### Project Description
-
+TBD
 
 ### Technical Description / Primary Technologies or concepts Used
   - Python 2.7
@@ -50,8 +50,8 @@ TBD
 
 ### Future Direction / Areas of Improvement
 Next possible improvements are expected
-	- Complete the build of classifier
-	- Add some real life functionalities
+  - Update the classifier 
+  - Start adding the desired functionalites
 
 
 ### Support / Found a bug?
