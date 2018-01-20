@@ -1,10 +1,7 @@
 <!--[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
 -->
-
 ## Find-Cheap-Airfares
 A Python/Machine Learning application.
-
-A back-end application. 
 
 ### Background
 This application helps us find cheap airfares between an origin and one/several destination places using Python Machine learning techniques.
@@ -12,18 +9,19 @@ This application helps us find cheap airfares between an origin and one/several 
 By now, Machine Learning has proved itself as a reliable medium to build such application to perform the expected tasks of this type of application. 
 
 
-### Projected Development Timeline
+### Project Overview
+|  |  |
+| --- | --- |
+| Repo Type | Project Type |
+| Current Status | Phase 1 |
+| Development Timeline | Start (beginning of) Jan 2018 :: Finish (end of) Feb 2018 |
+| Application Type | Backend |
+| License Type | MIT |
 
-Start: Beginning of Jan 2018
-
-Finish: End of Feb 2018
+### Project Description
 
 
-### Current Status
-This project is still in phase 1 which is very early development phase. 
-
-
-### Primary Technologies Used
+### Technical Description / Primary Technologies or concepts Used
   - Python 2.7
   - Machine Learning algorithm
   - Webscraping
@@ -34,15 +32,23 @@ This project is still in phase 1 which is very early development phase.
 
 
 ### How to Run
-- Step 1: Create a virtual environment
-- Step 2: Install requirements from requirementx.txt
-- Step 3: Run the main project file
-```
-cd app
-python app.py
-```
+  - clone the repo
+  - install the requirements from requirements.txt file
+  - go to the app directory
+  - run the app file
+  
+  
+### Pre-requisites / Know Before You Go
+  - Basic knowledge of Python (version 2.x)
+  - Understanding of Python Machine learning algorithms
+  - OOP
+  
+  
+### Application Functionalities
+TBD
 
-### Future Direction
+
+### Future Direction / Areas of Improvement
 Next possible improvements are expected
 	- Complete the build of classifier
 	- Add some real life functionalities
@@ -50,12 +56,9 @@ Next possible improvements are expected
 
 ### Support / Found a bug?
 Here are the options
-
-(1) Please file an issue with detailed description.
-
-(2) If you know a possible solution, please create a new branch, update the code and then submit pull request.
-
-(3) If you like to contact me directly, email me here ariful.haque.uc@gmail.com
+  - Please file an issue with detailed description.
+  - If you know a possible solution, please create a new brnach, update the code and then submit pull request.
+  - If you would  like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
 
   
 ### General Disclaimer 
