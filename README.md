@@ -1,7 +1,15 @@
 <!--[![HitCount](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares.svg)](http://hits.dwyl.io/arifulhaqueuc/Find-Cheap-Airfares)
 -->
-### Find-Cheap-Airfares
-A Python/Machine Learning application.
+
+```diff
++ This repo is under active development at this time,
+- so, frequent and random updates
++ are very likely to happen. Followers are requested to update 
++ their local repository every couple of days a week. Thank you. 
+```
+
+### Find Cheap Airfares
+This is a Python/Machine Learning application.
 
 ### Background
 This application helps us find cheap airfares between an origin and one/several destination places using Python Machine learning techniques.
