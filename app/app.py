@@ -7,9 +7,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from bs4 import BeautifulSoup
 
 
-
 url = "https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-Europe-0x46ed8886cfadda85%253A0x72ef99e6b3fcf079;li=3;lx=5;d=2018-01-15"
-
 driver = webdriver.PhantomJS()
 dcap = dict(DesiredCapabilities.PHANTOMJS)
 dcap["phantomjs.page.settings.userAgent"] = (
