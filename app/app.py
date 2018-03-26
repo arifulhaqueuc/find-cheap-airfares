@@ -22,6 +22,37 @@ driver = webdriver.PhantomJS(
   
 driver.implicity_wait(20)
 driver.get(url)
+s = BeautifulSoup(driver.page_source, "lxml")
 
-driver.save_screenshot(r'flight_explorer.png')
+best_price_tags = s.findAll('div', 'LH3SCIC-w-e')
+best_prices = []
+for tag in best_price_tags:
+    best_prices.append(int(tag.text.replace('$','').replace(',','')))
+
+print(best_price_tags)
+best_prices = best_prices[0]
+print(best_prices)
+
+
+best_height_tags = s.findAll('div', 'LH3SCIC-w-f')
+best_heights = []
+for t in best_height_tags:
+    best_heights.append(float(t.attrs['style']\
+          .split('height:')[1].replace('px;','')))
+
+best_height = best_heights[0]
+print(best_height)
+pph = np.array(best_price)/np.array(best_height)
+print(pph)
+cities = s.findAll('div', 'LH3SCIC-w-o')
+print(cities)
+
+
+hlist=[]
+for bar in cities[0].findAll('div', 'LH3SCIC-w-x'):
+        hlist.append(float(bar['style'].split('height: ')[1].replace('px;',''))*pph)
+
+fares = pd.DataFrame(hlist, columns=['price'])
+print(fares)
+
 

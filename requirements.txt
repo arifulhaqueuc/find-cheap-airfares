@@ -2,3 +2,4 @@ pandas==0.22.0
 numpy==1.14.2
 matplotlib==2.2.2
 beautifulsoup4==4.6.0
+selenium==3.11.0
