@@ -1,10 +1,10 @@
 
-<img src="https://user-images.githubusercontent.com/20999114/35537819-a71d5fc4-0519-11e8-9d1f-489ca7ed6822.gif" height="30" width="40"> <h2>Project Development Update
+<img src="https://user-images.githubusercontent.com/20999114/35537819-a71d5fc4-0519-11e8-9d1f-489ca7ed6822.gif" height="30" width="40"> Project Development Update
 ====
 Last Update: April 23' 2018 
 
 
-:couple: <h2> Audience Insights 
+:couple: Audience Insights 
 ====
 #### Target Audience
 This project targets the beginners of Machine Learning who have basic knowledge on Machine Learning algorithms, and would like to see how to implement such algorithm in real life example. 
@@ -15,20 +15,12 @@ This repository helps us understand analysing Data retrieved from online source 
 #### What to expect
 By practicing such application, developers should have a basic level of understanding on how to structure a real life machine learning application. 
 
-#### Pre-requisites / Know Before You Go
-  - Basic knowledge of Python
-  - Good Knowledge of OOP
-  - Good Knowledge of args, and kwargs
-  - Data Analysis techniques in Python
-  - Python's Data Analysis libraries
-
-
-:couple: <h2> Project Insights
+:couple: Project Insights
 ====
-### Find Cheap Airfares
+#### Find Cheap Airfares
 This is a Python/Machine Learning application. This application helps us find cheap airfares between an origin and one/several destination places using Python Machine learning techniques.
 
-<!--
+
 ### Project Overview
 |  |  |
 | --- | --- |
@@ -37,26 +29,30 @@ This is a Python/Machine Learning application. This application helps us find ch
 | Development Timeline | Start (beginning of) Jan 2018 :: Finish (end of) Feb 2018 |
 | Application Type | Backend |
 | License Type | MIT |
--->
+
 
 ### Technical Description
 Using Machine Learning techniques to find out cheap air fare prices is a very common and reliable approach. There are four/five steps in this process:
 <br />Step 1: Sourcing airfare pricing data
-To get the primary data, we will use Google's Flight Tracker which is called Google Flight Explorer. Once we set an origin and destination, it gives us a series of pricing data within a given time frame which ultimately helps us understand the changes in airfares over a period of time. 
+<br />To get the primary data, we will use Google's Flight Tracker which is called Google Flight Explorer. Once we set an origin and destination, it gives us a series of pricing data within a given time frame which ultimately helps us understand the changes in airfares over a period of time. For example, the following link will give you the airfare prices from Washington DC to the major cities within US for a 3-5 days trip. 
+<!--
+https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-United+States-0x54eab584e432360b%253A0x1c3bb99243deb742;li=3;lx=5;d=2018-04-30
+-->
+This is our primary source of data for this project.
 <br />Step 2: Retrieving the fare data with web scraping technique
+<br />Python has a number of web scraping libraries such as beautifulsoup, requests, scrap. For this process, we need a browser to retrieve the data. 
 <br />Step 3: Parsing the DOM to extract pricing data
 <br />Step 4: Sending real-time alerts using IFTTT
 
 
 ### Primary Technologies/Concepts Used
-|  |  |
-| Technology/Language/Libray | Objective/Purpose |
-| Python 2.7 | xxx |
-| Machine Learning algorithm | xxx |
-| Webscraping | xxx |
-| DOM | Backend |
-| BeautifulSoup | xxx |
-| PhantomJS | xxx |
+| Technology Language Libray  | Objective Purpose |
+| Python 2.7                  | xxx |
+| Machine Learning algorithm  | DBScan |
+| Webscraping                 | xxx |
+| DOM                         | xxx |
+| BeautifulSoup               | xxx |
+| PhantomJS                   | xxx |
 
 
 ### How to Run
@@ -67,9 +63,14 @@ To get the primary data, we will use Google's Flight Tracker which is called Goo
   
   
 ### Pre-requisites / Know Before You Go
-  - Basic knowledge of Python (version 2.x)
-  - Understanding of Python Machine learning algorithms
-  - OOP
+  - PhantomJS
+  - Beautiful Soup
+  - Sellenium
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - What is User Agent
+  - What is DOM
   
   
 ### Application Functionalities
@@ -86,7 +87,8 @@ Found a bug?? Here are the options
   - If you would  like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
 
 Interested in Collaboration and Contribution??
-<br /> I am open to except any relevant collaboration suggestion from developers. Feel free to reach out to me in email.
+  - I am open to except any relevant collaboration suggestion from developers. 
+  - Feel free to reach out to me in email.
 
 ### General Disclaimer
 This is my personal project and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
