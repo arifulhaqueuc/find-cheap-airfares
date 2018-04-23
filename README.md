@@ -46,13 +46,18 @@ This is our primary source of data for this project.
 
 
 ### Primary Technologies/Concepts Used
-| Technology Language Libray  | Objective Purpose |
-| Python 2.7                  | xxx |
-| Machine Learning algorithm  | DBScan |
-| Webscraping                 | xxx |
-| DOM                         | xxx |
-| BeautifulSoup               | xxx |
-| PhantomJS                   | xxx |
+|  |  |
+| --- | --- |
+| Technology Language Libray | Project Type |
+| Python 2.7 | Phase 1 |
+| Machine Learning Algorithm | xxx |
+| WebScraping | Backend |
+| DOM | MIT |
+| Beautiful Soup | MIT |
+| PhantomJS | MIT |
+
+
+
 
 
 ### How to Run
