@@ -21,17 +21,9 @@ This project targets the beginners of Machine Learning who have basic knowledge 
 | Python 2.7 | Phase 1 |
 | Machine Learning Algorithm |  |
 | WebScraping | Backend |
-| DOM | MIT |
-| Beautiful Soup | MIT |
-| PhantomJS | MIT |
-
-
-
-### How to Run
-  - clone the repo
-  - install the requirements from requirements.txt file
-  - go to the app directory
-  - run the app file
+| DOM |  |
+| Beautiful Soup |  |
+| PhantomJS |  |
 
 
 
@@ -65,6 +57,14 @@ This is our primary source of data for this project.
 <br />Step 3: Parsing the DOM to extract pricing data
 <br />Step 4: Sending real-time alerts using IFTTT
 
+
+
+### How to Run
+  - clone the repo
+  - install the requirements from requirements.txt file
+  - go to the app directory
+  - run the app file
+
   
 
 :computer: Support & Disclaimer
@@ -74,10 +74,6 @@ Found a bug?? Here are the options
   - Please file an issue with detailed description.
   - If you know a possible solution, please create a new brnach, update the code and then submit pull request.
   - If you would  like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
-
-Interested in Collaboration and Contribution??
-  - I am open to except any relevant collaboration suggestion from developers. 
-  - Feel free to reach out to me in email.
 
 ### General Disclaimer
 This is my personal project and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
