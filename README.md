@@ -1,36 +1,57 @@
 
 <img src="https://user-images.githubusercontent.com/20999114/35537819-a71d5fc4-0519-11e8-9d1f-489ca7ed6822.gif" height="30" width="40"> Project Development Update
 ====
-Last Update: April 23' 2018 
+Last Major Update: June 3' 2018 
 
 
-:couple: Audience Insights 
-====
-#### Target Audience
-This project targets the beginners of Machine Learning who have basic knowledge on Machine Learning algorithms, and would like to see how to implement such algorithm in real life example. 
-
-#### Purposes
-This repository helps us understand analysing Data retrieved from online source by using Machine Learning algorithm based on given requirements. 
-
-#### What to expect
-By practicing such application, developers should have a basic level of understanding on how to structure a real life machine learning application. 
-
-:couple: Project Insights
-====
-#### Find Cheap Airfares
+About the Project
+===
 This is a Python/Machine Learning application. This application helps us find cheap airfares between an origin and one/several destination places using Python Machine learning techniques.
 
+This repository helps us understand analysing Data retrieved from online source by using Machine Learning algorithm based on given requirements. By practicing such application, developers should have a basic level of understanding on how to structure a real life machine learning application. 
 
-### Project Overview
+This project targets the beginners of Machine Learning who have basic knowledge on Machine Learning algorithms, and would like to see how to implement such algorithm in real life example. 
+
+
+
+### Primary Technologies/Concepts Used
 |  |  |
 | --- | --- |
-| Repo Type | Project Type |
-| Current Status | Phase 1 |
-| Development Timeline | Start (beginning of) Jan 2018 :: Finish (end of) Feb 2018 |
-| Application Type | Backend |
-| License Type | MIT |
+| Technology Language Libray | Project Type |
+| Python 2.7 | Phase 1 |
+| Machine Learning Algorithm |  |
+| WebScraping | Backend |
+| DOM | MIT |
+| Beautiful Soup | MIT |
+| PhantomJS | MIT |
 
 
+
+### How to Run
+  - clone the repo
+  - install the requirements from requirements.txt file
+  - go to the app directory
+  - run the app file
+
+
+
+
+Knowledge-base
+===
+
+
+  
+### Pre-requisites / Know Before You Go
+  - PhantomJS
+  - Beautiful Soup
+  - Sellenium
+  - Pandas
+  - Numpy
+  - Matplotlib
+  - What is User Agent
+  - What is DOM
+  
+  
 ### Technical Description
 Using Machine Learning techniques to find out cheap air fare prices is a very common and reliable approach. There are four/five steps in this process:
 <br />Step 1: Sourcing airfare pricing data
@@ -44,44 +65,7 @@ This is our primary source of data for this project.
 <br />Step 3: Parsing the DOM to extract pricing data
 <br />Step 4: Sending real-time alerts using IFTTT
 
-
-### Primary Technologies/Concepts Used
-|  |  |
-| --- | --- |
-| Technology Language Libray | Project Type |
-| Python 2.7 | Phase 1 |
-| Machine Learning Algorithm | xxx |
-| WebScraping | Backend |
-| DOM | MIT |
-| Beautiful Soup | MIT |
-| PhantomJS | MIT |
-
-
-
-
-
-### How to Run
-  - clone the repo
-  - install the requirements from requirements.txt file
-  - go to the app directory
-  - run the app file
   
-  
-### Pre-requisites / Know Before You Go
-  - PhantomJS
-  - Beautiful Soup
-  - Sellenium
-  - Pandas
-  - Numpy
-  - Matplotlib
-  - What is User Agent
-  - What is DOM
-  
-  
-### Application Functionalities
-TBD
-
-
 
 :computer: Support & Disclaimer
 ===
@@ -97,3 +81,10 @@ Interested in Collaboration and Contribution??
 
 ### General Disclaimer
 This is my personal project and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
+
+
+
+
+References
+===
+[TBD]
