@@ -18,7 +18,7 @@ This project targets the beginners of Machine Learning who have basic knowledge 
 |  |  |
 | --- | --- |
 | Technology Language Libray | Project Type |
-| Python 2.7 | Phase 1 |
+| Python 2.7 |  |
 | Machine Learning Algorithm |  |
 | WebScraping | Backend |
 | DOM |  |
