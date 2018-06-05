@@ -1,7 +1,5 @@
+Last Major Update: June 4' 2018 
 
-<img src="https://user-images.githubusercontent.com/20999114/35537819-a71d5fc4-0519-11e8-9d1f-489ca7ed6822.gif" height="30" width="40"> Project Development Update
-====
-Last Major Update: June 3' 2018 
 
 
 About the Project
@@ -14,26 +12,29 @@ This project targets the beginners of Machine Learning who have basic knowledge 
 
 
 
-### Primary Technologies/Concepts Used
-|  |  |
-| --- | --- |
-| Technology Language Libray | Project Type |
-| Python 2.7 |  |
-| Machine Learning Algorithm |  |
-| WebScraping | Backend |
-| DOM |  |
-| Beautiful Soup |  |
-| PhantomJS |  |
+
+Table of Contents
+===
+ - About the Project
+ - Primary Technologies/concepts used
+ - Knowledge-base
+ - Know before you go
+ - Technical Description
+ - How to run the application
 
 
 
+Primary Technologies/Concepts Used
+===
+[TBD]
 
 Knowledge-base
 ===
-
+[TBD]
 
   
-### Pre-requisites / Know Before You Go
+Pre-requisites / Know Before You Go
+===
   - PhantomJS
   - Beautiful Soup
   - Sellenium
@@ -44,22 +45,33 @@ Knowledge-base
   - What is DOM
   
   
-### Technical Description
+Technical Description
+===
 Using Machine Learning techniques to find out cheap air fare prices is a very common and reliable approach. There are four/five steps in this process:
-<br />Step 1: Sourcing airfare pricing data
+<br />
+**Step 1:**
+Sourcing airfare pricing data
 <br />To get the primary data, we will use Google's Flight Tracker which is called Google Flight Explorer. Once we set an origin and destination, it gives us a series of pricing data within a given time frame which ultimately helps us understand the changes in airfares over a period of time. For example, the following link will give you the airfare prices from Washington DC to the major cities within US for a 3-5 days trip. 
 <!--
 https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-United+States-0x54eab584e432360b%253A0x1c3bb99243deb742;li=3;lx=5;d=2018-04-30
 -->
 This is our primary source of data for this project.
-<br />Step 2: Retrieving the fare data with web scraping technique
+<br />
+**Step 2:**
+Retrieving the fare data with web scraping technique
 <br />Python has a number of web scraping libraries such as beautifulsoup, requests, scrap. For this process, we need a browser to retrieve the data. 
-<br />Step 3: Parsing the DOM to extract pricing data
-<br />Step 4: Sending real-time alerts using IFTTT
+<br />
+**Step 3:** 
+Parsing the DOM to extract pricing data
+<br />
+**Step 4:**
+Sending real-time alerts using IFTTT
 
 
 
-### How to Run
+How to Run
+===
+Please follow the following steps to run the application on your local machine
   - clone the repo
   - install the requirements from requirements.txt file
   - go to the app directory
@@ -67,15 +79,15 @@ This is our primary source of data for this project.
 
   
 
-:computer: Support & Disclaimer
+Support & Disclaimer
 ===
-### Support
+#### Support
 Found a bug?? Here are the options
   - Please file an issue with detailed description.
   - If you know a possible solution, please create a new brnach, update the code and then submit pull request.
   - If you would  like to reach out to me directly with any question, email me at ariful.haque.uc@gmail.com
 
-### General Disclaimer
+#### General Disclaimer
 This is my personal project and not an official product of any company. If you would like to use this code, please keep it in your mind that, although I have tried to make it as error-free as possible, there's no warranty of a 100% bug free application. 
 
 
