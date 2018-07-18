@@ -6,6 +6,8 @@ About the Project
 ===
 This is a Python/Machine Learning application. This application helps us find cheap airfares between an origin and one/several destination places using Python Machine learning techniques.
 
+This is a backend application. No frontend is attached to the application yet. 
+
 This repository helps us understand analysing Data retrieved from online source by using Machine Learning algorithm based on given requirements. By practicing such application, developers should have a basic level of understanding on how to structure a real life machine learning application. 
 
 This project targets the beginners of Machine Learning who have basic knowledge on Machine Learning algorithms, and would like to see how to implement such algorithm in real life example. 
@@ -15,7 +17,6 @@ This project targets the beginners of Machine Learning who have basic knowledge 
 
 Table of Contents
 ===
- - About the Project
  - Primary Technologies/concepts used
  - Knowledge-base
  - Know before you go
@@ -25,16 +26,7 @@ Table of Contents
 
 
 Primary Technologies/Concepts Used
-===
-[TBD]
-
-Knowledge-base
-===
-[TBD]
-
-  
-Pre-requisites / Know Before You Go
-===
+=========
   - PhantomJS
   - Beautiful Soup
   - Sellenium
@@ -44,28 +36,37 @@ Pre-requisites / Know Before You Go
   - What is User Agent
   - What is DOM
   
-  
+
+Know before you Go
+======
+ - Structure of a general machine learning application
+
+
 Technical Description
 ===
-Using Machine Learning techniques to find out cheap air fare prices is a very common and reliable approach. There are four/five steps in this process:
+There are four/five steps in this process:
 <br />
 **Step 1:**
-Sourcing airfare pricing data
-<br />To get the primary data, we will use Google's Flight Tracker which is called Google Flight Explorer. Once we set an origin and destination, it gives us a series of pricing data within a given time frame which ultimately helps us understand the changes in airfares over a period of time. For example, the following link will give you the airfare prices from Washington DC to the major cities within US for a 3-5 days trip. 
+<br>Sourcing airfare pricing data
+
+To get the primary data, we will use Google's Flight Tracker which is called Google Flight Explorer. Once we set an origin and destination, it gives us a series of pricing data within a given time frame which ultimately helps us understand the changes in airfares over a period of time. For example, the following link will give you the airfare prices from Washington DC to the major cities within US for a 3-5 days trip. 
 <!--
 https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-United+States-0x54eab584e432360b%253A0x1c3bb99243deb742;li=3;lx=5;d=2018-04-30
 -->
 This is our primary source of data for this project.
-<br />
+
+
 **Step 2:**
-Retrieving the fare data with web scraping technique
-<br />Python has a number of web scraping libraries such as beautifulsoup, requests, scrap. For this process, we need a browser to retrieve the data. 
-<br />
+<br>Retrieving the fare data with web scraping technique
+
+Python has a number of web scraping libraries such as beautifulsoup, requests, scrap. For this process, we need a browser to retrieve the data. 
+
 **Step 3:** 
-Parsing the DOM to extract pricing data
-<br />
+<br>Parsing the DOM to extract pricing data
+
+
 **Step 4:**
-Sending real-time alerts using IFTTT
+<br>Sending real-time alerts using IFTTT
 
 
 
