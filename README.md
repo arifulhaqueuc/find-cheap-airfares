@@ -27,20 +27,22 @@ Table of Contents
 
 Primary Technologies/Concepts Used
 =========
-  - PhantomJS
-  - Beautiful Soup
-  - Sellenium
-  - Pandas
-  - Numpy
-  - Matplotlib
-  - What is User Agent
-  - What is DOM
+Topics | What is It | Links
+----- | ---- | ----
+PhantomJS | --- | ---
+Beautiful Soup | --- | ---
+Sellenium | Testing tool | ---
+Pandas, Numpy | Python library for data science | ---
+Matplotlib | Python package for data visualization | ---
+DOM | Document Object Model | ---
   
 
 Know before you Go
 ======
  - Structure of a general machine learning application
-
+ - What is User Agent
+ - Use of Sellenium 
+ - Use of DOM
 
 Technical Description
 ===
