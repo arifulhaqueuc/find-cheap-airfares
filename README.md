@@ -1,5 +1,5 @@
 Last Major Update: June 4' 2018 
-
+Next Major Update(estimated): Sept 2018
 
 
 About the Project
@@ -10,17 +10,6 @@ Overview | This is a Machine Learning application powered by Python. | The objec
 Application Nature | This is a backend application. No frontend is attached to the application yet. 
 Objective | This repository helps us understand analysing Data retrieved from online source by using Machine Learning algorithm based on given requirements. By practicing such application, developers should have a basic level of understanding on how to structure a real life machine learning application. 
 Target Audience | This project targets the beginners of Machine Learning who have basic knowledge on Machine Learning algorithms, and would like to see how to implement such algorithm in real life example. 
-
-
-
-
-Table of Contents
-===
- - Primary Technologies/concepts used
- - Knowledge-base
- - Know before you go
- - Technical Description
- - How to run the application
 
 
 
@@ -60,6 +49,7 @@ Step | Function | Description
 How to Run
 ===
 Please follow the following steps to run the application on your local machine
+  - setup a virtual environment in local machine ([https://github.com/arifulhaqueuc/python-project-startup-guide/blob/master/virtual_env.MD])
   - clone the repo
   - install the requirements from requirements.txt file
   - go to the app directory
@@ -83,7 +73,6 @@ This is my personal project and not an official product of any company. If you w
 
 References
 ===
-<!--
-https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-United+States-0x54eab584e432360b%253A0x1c3bb99243deb742;li=3;lx=5;d=2018-04-30
--->
+ - https://www.google.com/flights/explore/#explore;f=IAD,DCA,BWI;t=r-United+States-0x54eab584e432360b%253A0x1c3bb99243deb742;li=3;lx=5;d=2018-04-30
+
 
