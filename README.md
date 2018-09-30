@@ -1,5 +1,4 @@
-Last Major Update: June 4' 2018 
-Next Major Update(estimated): Sept 2018
+*The project is currently under development with the most recent major update date Jun 4'2018. The targeted completion time is by end of Dec 2018*
 
 
 About the Project
